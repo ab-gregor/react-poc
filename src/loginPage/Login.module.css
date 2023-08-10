@@ -1,0 +1,36 @@
+.spanContainer{
+    height: 100%;
+    width: 30%;
+    display: inline-block;
+    background-color:#AEE0C5;
+    color: aliceblue;
+    position: static;
+    
+}
+
+.textContainer{
+    position: relative;
+    left: 20%;
+    top: 20%;
+}
+.loginHeader{
+    font-size: 40px;
+}
+.cartImage{
+    max-height: 45%;
+    max-width: 55%;
+    aspect-ratio: 1;
+    top: 40%;
+    left: 20%;
+    position: relative;
+}
+.loginText{
+    font-size: large;
+    color: aliceblue;
+}
+.spanContainer2{
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+}
