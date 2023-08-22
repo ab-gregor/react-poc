@@ -1,0 +1,127 @@
+{
+  "productTypes": [
+    {
+      "id": 1,
+      "name": "Electronics",
+      "image": "Electronics.webp"
+    },
+    {
+      "id": 2,
+      "name": "Fashion",
+      "image": "Fashion.webp"
+    },
+    {
+      "id": 3,
+      "name": "Home and Furniture",
+      "image": "HomeandFurniture.webp"
+    },
+    {
+      "id": 4,
+      "name": "Mobiles",
+      "image": "Mobiles.webp"
+    },
+    {
+      "id": 5,
+      "name": "Grocery",
+      "image": "Grocery.webp"
+    }
+  ],
+  "products": [
+    {
+      "id": 101,
+      "typeId": 1,
+      "name": "SONY Alpha ILCE-7M3K Full Frame Mirrorless Camera",
+      "price": 149000,
+      "image": "SonyAlpha.webp",
+      "description": "Impress the world with stunning photos and wonderful videos captured using this Sony α7 III DSLR camera that meets all your shooting needs with its innovative features. This camera features a 35 mm Full-frame Image Sensor, Up to 10 fps with AF/AE Tracking, and High-resolution, High-contrast XGA OLED Tru-Finder to click clear images and high-quality videos."
+    },
+    {
+      "id": 102,
+      "typeId": 1,
+      "name": "Canon PIXMA TS3370S Multi-function WiFi Color Inkjet Printer",
+      "price": 499,
+      "image": "CanonPrinter.webp",
+      "description": "Designed to cater to all your printing needs, the Canon PIXMA TS3370S Inkjet Printer is a suitable choice. Featuring a convenient LCD display of up to 3.8 cm, this printer enables you to conveniently set copy size and the number of copies. Owing to its auto power-on feature, this printer can turn on automatically when it detects a print command and shut down after a set amount of time. Additionally, through its USB 2.0 interface, this printer provides fast wireless connectivity and can be shared wirelessly."
+    },
+    {
+      "id": 1692014007596,
+      "typeId": 1,
+      "name": "Mi 3i 20000 mAh Power Bank ",
+      "price": 2149,
+      "image": "MiPowerbank.webp",
+      "description": "Don’t let your devices run out of battery while you’re away with this Mi power bank. Thanks to its 18 W fast charge support, this power bank helps you charge your devices quickly and efficiently. It also helps you charge almost all types of devices, such as smartphones, fitness bands and Mi wireless earphones and tablets."
+    },
+    {
+      "id": 1692014208086,
+      "typeId": 2,
+      "name": "Allen Solly Men Regular Fit Solid Casual Shirt",
+      "price": 1049,
+      "image": "AllenSollyShirt.webp",
+      "description": "Good quality shirt made with pure cotton"
+    },
+    {
+      "id": 1692014791057,
+      "typeId": 2,
+      "name": "Van Huesen Casual Regular Sleeves Self Design Women Yellow Top",
+      "price": 949,
+      "image": "VanHuesenYellow.webp",
+      "description": "High Quality womens top"
+    },
+    {
+      "id": 1692014848543,
+      "typeId": 2,
+      "name": "PETER ENGLAND Analog Watch",
+      "price": 1300,
+      "image": "PeterEnglandWatch.webp",
+      "description": "This is a genuine Peter England product. The product comes with a Manufacturer Warranty by Timex of 1 Year"
+    },
+    {
+      "id": 1692020565227,
+      "typeId": 3,
+      "name": "beaatho Rio With 3 Years Warranty Mid Back Ergonomic Revolving Fabric Office Executive Chair",
+      "price": 7999,
+      "image": "OfficeChair.webp",
+      "description": "Introducing the beAAtho Rio Executive Chair - the epitome of comfort and elegance. Crafted for extended work sessions, its ergonomic design ensures optimal support and reduced fatigue, enabling a pain-free and productive day at the office. Luxurious leather upholstery and plush cushioning provide a touch of opulence, enveloping you in unmatched comfort as you work. Effortlessly recline and find your perfect relaxation position with the smooth tilting mechanism. The Rio Chair's sleek and modern aesthetics elevate any setting, making it a statement piece in your office or home. Upgrade your workspace with the beAAtho Rio Executive Chair and experience the perfect fusion of style, comfort, and functionality. Elevate your seating experience and make each day at work a delightful experience."
+    },
+    {
+      "id": 169202056,
+      "typeId": 3,
+      "name": "Purple Furniture Premium Engineered Wood Computer Desk",
+      "price": 2500,
+      "image": "ComputerTable.webp",
+      "description": "The 'Elite Computer Table' is optimally designed to fulfill the basic purpose of having a computer table at your home or office. The Height, Width and Depth dimensions of the table are carefully set to suit all customers, including those who have limited space for a computer table. Buy with confidence, as we provide '1 Year Unconditional Warranty' along with 'Spare Parts Support' up to 5 Years from the date of sale, which is an 'Industry First*' feature. BEWARE: All products under the brand name 'Purple Furniture' are manufactured and sold only by the seller 'Purple Furniture' throughout India."
+    },
+    {
+      "id": 1692020565,
+      "typeId": 4,
+      "name": "POCO C51 (Royal Blue, 64 GB)  (4 GB RAM)",
+      "price": 6499,
+      "image": "PocoC51.webp",
+      "description": "Give your inner tech nerd a treat with the POCO C51 smartphone, which mesmerises you from the minute you switch it on thanks to its top-notch performance. The POCO C51's MediaTek Helio G36 octa-core Processor, clocked at up to 2.2 GHz, has all the power needed for responsive web surfing and multimedia tasks."
+    },
+    {
+      "id": 1692020565,
+      "typeId": 5,
+      "name": "Saffola Active Refined Cooking Rice Bran & Soyabean Blended Oil Pouch  (4 x 1 L)",
+      "price": 500,
+      "image": "SuffolaOil.webp",
+      "description": "Keeping your weight in check is essential to be healthy. The first and foremost thing that leads to weight gain is mindless eating. So make a smart choice by eating home cooked food that is prepared using the Saffola Active Blended oil. This oil is made by combining the benefits of the LOSORB technology, dual seed technology, and antioxidants. It also ensures less oil adsorption."
+    },
+    {
+      "id": 1692173875612,
+      "typeId": 4,
+      "name": "MOTOROLA G32 (Mineral Gray, 128 GB)  (8 GB RAM)",
+      "price": 11999,
+      "image": "motog32.webp",
+      "description": "\nYou can experience lag-free gaming, fluid multitasking, and stunning, stutter-free images with the Moto G32. With a mind-blowing 16.51 cm (6.5) FHD+ Ultra-wide display and a refresh rate of 90 Hz, this phone makes it possible to multitask while being entertained. Furthermore, with a Snapdragon 680 Octa-core processor and 8 GB of RAM, you can juggle brilliantly without the smartphone overheating while enjoying an amazing UI. Moreover, this phone has a 50 MP primary camera with an 8 MP ultra-wide lens, enabling you to capture breath-taking timeless beauty.\n"
+    },
+    {
+      "id": 1692606991285,
+      "typeId": 1,
+      "name": "Moto e5",
+      "price": 15999,
+      "image": "PocoC51.webp",
+      "description": "apapap"
+    }
+  ]
+}

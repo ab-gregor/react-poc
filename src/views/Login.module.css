@@ -31,6 +31,27 @@
 .spanContainer2{
     width: 70%;
     height: 100%;
-    display: inline-block;
     position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.loginContainer{
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.materialButton{
+    margin: 6px;
+}
+.materialInput{
+    margin: 2px;
+}
+.logo{
+    max-height: 40%;
+    max-width: 40%;
 }

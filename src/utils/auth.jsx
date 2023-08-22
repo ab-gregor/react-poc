@@ -1,17 +1,43 @@
 import { ROLES } from '../store/userSlice';
-export const mockLogin = (username, password) => {
-    if (username.includes("admin") && password === "admin") {
-      return { name: username, role: ROLES.ADMIN };
-    } else if (password === "user") {
-      return { name: username, role: ROLES.USER };
-    }
-    return null;
-  };
-  
-  export const mockRegister = (username, password) => {
+import { useNavigate } from 'react-router-dom';
+import axios from 'axios';
 
-    return { name: username, role: ROLES.USER };
-  };
+
+export const login = async (username, password) => {
+    try {
+        const response = await axios.post('http://localhost:5000/login', { username, password });
+        return response.data;
+    } catch (error) {
+        console.error('Login failed:', error);
+        return null;
+    }
+};
+
+export const register = async (username, password) => {
+    try {
+        const response = await axios.post('http://localhost:5000/register', { username, password });
+        if(response){
+        return response.data;}
+        
+    } catch (error) {
+        console.error('Registration failed:', error);
+        if (error.response && error.response.status === 409) {
+          window.alert("Username already taken");
+          
+      } else {
+          console.error("Registration error:", error.message);
+          
+      }
+        return null;
+    }
+};
+ 
 export const isUserAdmin = (role) => {
-  return (role === ROLES.ADMIN);
+    
+  if(role === ROLES.ADMIN){
+    return true
+  }
+  else {
+return false
+  };
 };

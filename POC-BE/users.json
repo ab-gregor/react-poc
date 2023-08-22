@@ -1,0 +1,37 @@
+[
+  {
+    "username": "admin",
+    "password": "admin123",
+    "role": "admin"
+  },
+  {
+    "username": "user",
+    "password": "user",
+    "role": "user"
+  },
+  {
+    "username": "alan",
+    "password": "alan",
+    "role": "user"
+  },
+  {
+    "username": "user2",
+    "password": "user2",
+    "role": "user"
+  },
+  {
+    "username": "bb",
+    "password": "bb",
+    "role": "user"
+  },
+  {
+    "username": "bbss",
+    "password": "bb",
+    "role": "user"
+  },
+  {
+    "username": "bbssd",
+    "password": "bb",
+    "role": "user"
+  }
+]

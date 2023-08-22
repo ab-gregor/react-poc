@@ -6,16 +6,17 @@ import reportWebVitals from './reportWebVitals';
 import store from './store/store';
 import { Provider } from 'react-redux';
 import ErrorBoundary from './components/ErrorBoundary';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  
     <ErrorBoundary>
     <Provider store={store}>
     <App />
     </Provider>
     </ErrorBoundary>
-  </React.StrictMode>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function

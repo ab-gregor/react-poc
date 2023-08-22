@@ -1,0 +1,33 @@
+h2{
+    color:#4e9c73;
+}
+.categoryContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.categoryImage{
+    max-width: 128px;
+    max-height: 128px;
+}
+.categoryCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    cursor: pointer
+}
+.categoryCard :hover{
+    color: #4e9c73;
+}
+.adminHeading{
+    display: flex;
+    justify-content: center;
+    color: #4e9c73;
+}
+.AddForm{
+    margin-top: 3%;
+}

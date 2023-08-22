@@ -12,14 +12,15 @@ export const loginUserAsync = createAsyncThunk(
     return new Promise((resolve) => {
       setTimeout(() => {
         resolve(userData);
-      }, 1000);
+      }, 0);
     });
   }
 );
 
 const initialState = {
   name: null,
-  role: null
+  role: null,
+  isLoading:false
 };
 
 const userSlice = createSlice({
@@ -32,9 +33,13 @@ const userSlice = createSlice({
     }
   },
   extraReducers: (builder) => {
+    builder.addCase(loginUserAsync.pending,(state)=>{
+        state.isLoading=true;
+    })
     builder.addCase(loginUserAsync.fulfilled, (state, action) => {
       state.name = action.payload.name;
       state.role = action.payload.role;
+      state.isLoading=false;
     });
   }
 });

@@ -1,38 +1,41 @@
-import logo from './logo.svg';
 import './App.css';
-import AppRouter from './Router';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './theme';
-import Button from '@mui/material/Button';
+import HomeScreen from './views/Home';
 import Admin from './components/Admin';
 import Login from './views/Login'
 import LogoutButton from './components/LogoutButton';
-import ErrorBoundary from './components/ErrorBoundary';
-function Home() {
-  return <div>Home Screen</div>;
-}
+import ProductListScreen from './views/ProductList';
+import ProductDetailScreen from './views/ProductDetailScreen';
+import { CartProvider } from './contexts/CartContext';
+import CartScreen from './views/CartScreen';
+import AdminScreen from './views/AdminScreen';
 
-function ProductList() {
-  return <div><LogoutButton/>Product List Screen</div>;
-}
+
 function App() {
   return (
     <ThemeProvider theme={theme}>
+      <CartProvider>
      <Router>
         <div className="App">
+          
           <Routes>
             <Route path="/" element={<Login />} />
-            <Route path="/products" element={<ProductList />} />
+            <Route path="/productHome" element={<HomeScreen />} />
+            <Route path="/productHome/:typeId" element={<ProductListScreen />} />
+            <Route path="/productHome/:typeId/:productId" element={<ProductDetailScreen />} />
+            <Route path="/cart" element={<CartScreen/>}/>
             <Route path="/admin" element={<Admin/>}>
               
-              <Route path="admin2" element={<Admin/>} />
+              <Route path="admin2" element={<AdminScreen/>} />
               
             </Route>
             
           </Routes>
         </div>
       </Router>
+      </CartProvider>
     </ThemeProvider>
   );
 }
